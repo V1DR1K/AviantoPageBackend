@@ -273,6 +273,11 @@
       return `<div class="campo"><label for="${id}">${esc(etiqueta)}</label><input id="${id}" name="${nombre}"
         type="text" inputmode="decimal" data-importe maxlength="19" value="${valor == null ? "" : formatoImporte.format(valor)}"></div>`;
     }
+    if (elemento === "kilometraje") {
+      return `<div class="campo"><label for="${id}">${esc(etiqueta)}</label><input id="${id}" name="${nombre}"
+        type="text" inputmode="numeric" pattern="[0-9.]*" data-kilometraje maxlength="9" required
+        value="${valor == null ? "" : formatoKilometraje.format(valor)}"></div>`;
+    }
     const base = `id="${id}" name="${nombre}"${obligatorio ? " required" : ""}`;
     const label = `<label for="${id}">${esc(etiqueta)}</label>`;
     if (elemento === "checkbox") {
@@ -408,6 +413,7 @@
   });
 
   const formatoImporte = new Intl.NumberFormat("es-AR", { maximumFractionDigits: 2 });
+  const formatoKilometraje = new Intl.NumberFormat("es-AR", { maximumFractionDigits: 0, useGrouping: true });
   function leerImporte(texto) {
     if (!texto) return null;
     if (!/^(?:[0-9]+|[0-9]{1,3}(?:\.[0-9]{3})+)(?:,[0-9]{1,2})?$/.test(texto)) return NaN;
@@ -420,10 +426,25 @@
     input.setCustomValidity(valido ? "" : "Ingresá un importe válido, por ejemplo 26.000,50.");
     return valido;
   }
-  editor.addEventListener("input", (e) => { if (e.target.matches("[data-importe]")) e.target.setCustomValidity(""); });
+  function leerKilometraje(texto) {
+    const digitos = texto.replaceAll(".", "");
+    return /^\d+$/.test(digitos) ? Number(digitos) : NaN;
+  }
+  function comprobarKilometraje(input) {
+    const valor = leerKilometraje(input.value.trim());
+    const valido = !input.value.trim() || Number.isSafeInteger(valor) && valor <= 9999999;
+    input.setCustomValidity(valido ? "" : "Ingresá un kilometraje entre 0 y 9.999.999 km.");
+    return valido;
+  }
+  editor.addEventListener("input", (e) => {
+    if (e.target.matches("[data-importe], [data-kilometraje]")) e.target.setCustomValidity("");
+  });
   editor.addEventListener("focusout", (e) => {
     if (e.target.matches("[data-importe]") && comprobarImporte(e.target) && e.target.value.trim()) {
       e.target.value = formatoImporte.format(leerImporte(e.target.value.trim()));
+    }
+    if (e.target.matches("[data-kilometraje]") && comprobarKilometraje(e.target) && e.target.value.trim()) {
+      e.target.value = formatoKilometraje.format(leerKilometraje(e.target.value.trim()));
     }
   });
 
@@ -440,6 +461,8 @@
     const [marca, modelo, anio] = identificacion.map((input) => input.value.trim());
     const camposFicha = [...editor.querySelectorAll('[name^="ficha."]')];
     const previos = camposFicha.map((input) => input.value);
+    const campoTipo = editor.elements.namedItem("tipo");
+    const tipoPrevio = campoTipo.value;
     boton.disabled = true;
     destino.textContent = "Buscando especificaciones…";
     try {
@@ -457,6 +480,10 @@
           aplicados++;
         }
       });
+      if (ficha.tipo && campoTipo.value === tipoPrevio && [...campoTipo.options].some((opcion) => opcion.value === ficha.tipo)) {
+        campoTipo.value = ficha.tipo;
+        aplicados++;
+      }
       modificado ||= aplicados > 0;
       destino.textContent = aplicados
         ? `${aplicados} ${aplicados === 1 ? "campo completado" : "campos completados"}. Revisá los datos antes de guardar.`
@@ -477,6 +504,7 @@
         const input = editor.elements.namedItem(campo.nombre);
         let valor = input.value.trim();
         if (campo.tipo === "number") valor = input.value === "" ? null : input.valueAsNumber;
+        if (campo.tipo === "kilometraje") valor = input.value === "" ? null : leerKilometraje(input.value.trim());
         if (campo.tipo === "checkbox") valor = input.checked;
         if (campo.nombre === "fecha" && !valor) valor = null;
         if (campo.tipo === "importe") valor = leerImporte(valor);
@@ -492,6 +520,8 @@
     if (subiendo || guardando) return;
     const importe = editor.querySelector("[data-importe]");
     if (importe && !comprobarImporte(importe)) { importe.reportValidity(); return; }
+    const kilometraje = editor.querySelector("[data-kilometraje]");
+    if (kilometraje && !comprobarKilometraje(kilometraje)) { kilometraje.reportValidity(); kilometraje.focus(); return; }
     $("#estado-editor").textContent = "";
     guardando = true;
     pintarFotos();

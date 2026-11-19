@@ -2,6 +2,7 @@
   const texto = (nombre, etiqueta, max, obligatorio = false) => ({ nombre, etiqueta, max, obligatorio });
   const largo = (nombre, etiqueta, max, obligatorio = false) => ({ ...texto(nombre, etiqueta, max, obligatorio), tipo: "textarea", ancho: true });
   const entero = (nombre, etiqueta, max, min = 0, obligatorio = false) => ({ nombre, etiqueta, max, min, obligatorio, tipo: "number" });
+  const kilometraje = () => ({ nombre: "km", etiqueta: "Kilometraje", max: 9999999, min: 0, obligatorio: true, tipo: "kilometraje" });
   const importe = (nombre) => ({ nombre, etiqueta: "Precio", tipo: "importe" });
   const gestion = (nombre, etiqueta, tipo, obligatorio = false, multiple = false) => ({ nombre, etiqueta, gestion: tipo, obligatorio, multiple });
   const select = (nombre, etiqueta, opciones) => ({ nombre, etiqueta, tipo: "select", opciones, obligatorio: true });
@@ -18,7 +19,7 @@
         ["Identificación", [
           gestion("marcaNombre", "Marca", "marcas", true), texto("modelo", "Modelo", 90, true),
           gestion("tipo", "Tipo de moto", "tipos", true), gestion("color", "Color", "colores", true),
-          entero("anio", "Año", 2100, 1885, true), entero("km", "Kilometraje", 9999999, 0, true),
+          entero("anio", "Año", 2100, 1885, true), kilometraje(),
           select("estado", "Condición", ["Usada", "0 km"]),
           select("disponibilidad", "Disponibilidad", ["Disponible", "Reservada", "Vendida"]),
         ]],
