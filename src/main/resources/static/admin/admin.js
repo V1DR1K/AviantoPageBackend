@@ -312,9 +312,7 @@
     fotos = (datos.imagenes || []).map((foto) => ({ ...foto }));
     $("#titulo-editor").textContent = item ? config.nombre(datos) : config.nuevo;
     $("#campos").innerHTML = config.secciones.map(([titulo, definiciones]) =>
-      `<fieldset><legend>${esc(titulo)}</legend>${titulo === "Ficha técnica" ? `
-        <div class="gemini-accion"><button type="button" id="gemini-ficha" class="boton boton--linea">Autocompletar con Gemini</button>
-        <p id="estado-gemini" role="status"></p></div>` : ""}<div class="campos-grid">${definiciones.map((campo) => entrada(campo, datos)).join("")}</div></fieldset>`).join("");
+      `<fieldset><legend>${esc(titulo)}</legend><div class="campos-grid">${definiciones.map((campo) => entrada(campo, datos)).join("")}</div></fieldset>`).join("");
     $("#visible").checked = item?.visible ?? true;
     $("#cargar-fotos").value = "";
     $("#cargar-fotos").multiple = config.limite > 1;
@@ -446,51 +444,6 @@
     if (e.target.matches("[data-kilometraje]") && comprobarKilometraje(e.target) && e.target.value.trim()) {
       e.target.value = formatoKilometraje.format(leerKilometraje(e.target.value.trim()));
     }
-  });
-
-  $("#campos").addEventListener("click", async (e) => {
-    const boton = e.target.closest("#gemini-ficha");
-    if (!boton) return;
-    const destino = $("#estado-gemini");
-    const identificacion = ["marcaNombre", "modelo", "anio"].map((campo) => editor.elements.namedItem(campo));
-    for (const input of identificacion) if (!input.reportValidity() || !input.value.trim()) {
-      destino.textContent = "Completá marca, modelo y año.";
-      input.focus();
-      return;
-    }
-    const [marca, modelo, anio] = identificacion.map((input) => input.value.trim());
-    const camposFicha = [...editor.querySelectorAll('[name^="ficha."]')];
-    const previos = camposFicha.map((input) => input.value);
-    const campoTipo = editor.elements.namedItem("tipo");
-    const tipoPrevio = campoTipo.value;
-    boton.disabled = true;
-    destino.textContent = "Buscando especificaciones…";
-    try {
-      const ficha = await pedir("/ficha-tecnica/gemini", { metodo: "POST", datos: { marca, modelo, anio: Number(anio) } });
-      if (!boton.isConnected || $("#edicion").hidden) return;
-      if (identificacion.some((input, i) => input.value.trim() !== [marca, modelo, anio][i])) {
-        destino.textContent = "Cambió la identificación. Volvé a ejecutar la consulta.";
-        return;
-      }
-      let aplicados = 0;
-      camposFicha.forEach((input, i) => {
-        const valor = ficha[input.name.slice(6)];
-        if (valor != null && input.value === previos[i]) {
-          input.value = valor;
-          aplicados++;
-        }
-      });
-      if (ficha.tipo && campoTipo.value === tipoPrevio && [...campoTipo.options].some((opcion) => opcion.value === ficha.tipo)) {
-        campoTipo.value = ficha.tipo;
-        aplicados++;
-      }
-      modificado ||= aplicados > 0;
-      destino.textContent = aplicados
-        ? `${aplicados} ${aplicados === 1 ? "campo completado" : "campos completados"}. Revisá los datos antes de guardar.`
-        : "Revisá los cambios que hiciste durante la consulta y volvé a intentar si corresponde.";
-    } catch (error) {
-      if (destino.isConnected) await mostrarError(error, destino);
-    } finally { boton.disabled = false; }
   });
 
   function datosEditor() {

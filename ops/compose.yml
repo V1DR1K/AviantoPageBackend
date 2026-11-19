@@ -16,8 +16,6 @@ services:
       AVIANTO_ADMIN_INITIAL_PASSWORD: ${AVIANTO_ADMIN_INITIAL_PASSWORD:-avril}
       AVIANTO_ACTIVATION_CODE: ${AVIANTO_ACTIVATION_CODE:?Falta el código de activación}
       AVIANTO_SEED: "true"
-      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
-      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.8-flash}
       AVIANTO_CWEBP: /usr/bin/cwebp
     mem_limit: 768m
     cpus: 2

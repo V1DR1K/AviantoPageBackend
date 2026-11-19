@@ -223,5 +223,3 @@ dialog::backdrop { background: rgb(0 0 0 / 53%); }
 #form-gestion { margin-top: 1rem; }
 #confirmar-gestion:empty { display: none; }
 #form-gestion .acciones-editor { margin-top: 1rem; }
-.gemini-accion { display: flex; align-items: center; flex-wrap: wrap; gap: 0.6rem 1rem; margin-bottom: 1rem; }
-.gemini-accion p { max-width: 46ch; color: var(--muted); }
