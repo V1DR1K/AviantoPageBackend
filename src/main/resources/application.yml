@@ -1,0 +1,45 @@
+server:
+  port: ${PORT:8084}
+  shutdown: graceful
+  forward-headers-strategy: framework
+  servlet:
+    session:
+      timeout: 30m
+      cookie:
+        name: AVIANTOLANDINGSESSION
+        http-only: true
+        same-site: lax
+        secure: ${AVIANTO_COOKIE_SECURE:false}
+  tomcat:
+    threads:
+      max: 40
+      min-spare: 4
+    max-swallow-size: 32MB
+spring:
+  application.name: avianto-landing
+  datasource:
+    url: ${AVIANTO_DB_URL:jdbc:postgresql://localhost:55438/avianto_landing}
+    username: ${AVIANTO_DB_USER:avianto_landing}
+    password: ${AVIANTO_DB_PASSWORD:avianto_local}
+    hikari:
+      maximum-pool-size: 8
+      minimum-idle: 1
+  servlet.multipart:
+    max-file-size: 6MB
+    max-request-size: 31MB
+  mvc.problemdetails.enabled: true
+  lifecycle.timeout-per-shutdown-phase: 15s
+management:
+  endpoints.web.exposure.include: health
+  endpoint.health.probes.enabled: true
+  endpoint.health.group.readiness.include: readinessState,db
+avianto:
+  admin:
+    usuario: ${AVIANTO_ADMIN_USER:avril}
+    clave-inicial: ${AVIANTO_ADMIN_INITIAL_PASSWORD:avril}
+    codigo-activacion: ${AVIANTO_ACTIVATION_CODE:}
+  cargar-ejemplos: ${AVIANTO_SEED:true}
+  cwebp: ${AVIANTO_CWEBP:}
+  gemini:
+    api-key: ${GEMINI_API_KEY:}
+    model: ${GEMINI_MODEL:gemini-3.8-flash}

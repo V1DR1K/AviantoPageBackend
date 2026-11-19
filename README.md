@@ -1,0 +1,16 @@
+# Backend público de Avianto Motos
+
+Spring Boot 3.5, Java 21, PostgreSQL 17 y Flyway. Incluye la API pública, el panel `/admin`, las imágenes y los datos de ejemplo.
+
+## Ejecutar en local
+
+1. Iniciá una base PostgreSQL local en el puerto 55438 con base y usuario `avianto_landing`. Los valores locales de `application.yml` se pueden sustituir con `AVIANTO_DB_URL`, `AVIANTO_DB_USER` y `AVIANTO_DB_PASSWORD`.
+2. Definí `AVIANTO_ACTIVATION_CODE` con un código aleatorio de al menos 24 caracteres. El primer acceso de `avril` pide cambiar su clave inicial.
+3. Si querés servir también la landing desde Java, definí `SPRING_WEB_RESOURCES_STATIC_LOCATIONS=classpath:/static/,file:../AviantoVentaFrontend/`.
+4. Ejecutá `mvn spring-boot:run` y abrí `http://localhost:8084/admin`.
+
+`mvn verify` compila y prueba las variantes de imagen. Para probar también el codificador de producción, definí `AVIANTO_CWEBP` con la ruta de `cwebp`. El entorno local usa JPEG cuando esa variable está vacía. `mvn package` genera el JAR usado por el Dockerfile.
+
+## Producción
+
+`ops/compose.yml` ejecuta la API y una base privada. Requiere `AVIANTO_API_IMAGE`, `AVIANTO_DB_PASSWORD` y `AVIANTO_ACTIVATION_CODE` fuera del repositorio. El despliegue de Nginx se configura en el repositorio frontend. Las rutas, permisos, datos y política de caché están documentados en `documentacion.md`.

@@ -1,0 +1,2096 @@
+{
+  "fotos": [
+    "r1-blanca-escape.webp",
+    "r1-blanca-frente.webp",
+    "r1-roja-banco.webp",
+    "r3-azul-34.webp",
+    "r3-azul-lateral.webp"
+  ],
+  "motos": [
+    {
+      "id": "yamaha-yzf-r1-2009",
+      "datos": {
+        "modelo": "YZF-R1",
+        "tipo": "Sport",
+        "anio": 2009,
+        "km": 86900,
+        "estado": "Usada",
+        "precio": 7500,
+        "moneda": "USD",
+        "color": "Blanco perla",
+        "fotosCoinciden": true,
+        "revisadaEnBanco": false,
+        "destacada": true,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": "Visita coordinada con turno previo."
+        },
+        "marcaNombre": "Yamaha",
+        "ficha": {
+          "cc": 998,
+          "cilindros": 4,
+          "motor": "4 en línea crossplane",
+          "hp": 179,
+          "nm": 115,
+          "peso": 206,
+          "tanque": 18,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Yamaha YZF-R1"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Yamaha YZF-R1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yamaha-yzf-r1-2g-2015",
+      "datos": {
+        "modelo": "YZF-R1 (2G)",
+        "tipo": "Sport",
+        "anio": 2015,
+        "km": 77900,
+        "estado": "Usada",
+        "precio": 7700,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": true,
+        "revisadaEnBanco": false,
+        "destacada": true,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Yamaha",
+        "ficha": {
+          "cc": 998,
+          "cilindros": 4,
+          "motor": "4 en línea crossplane",
+          "hp": 197,
+          "nm": 112,
+          "peso": 199,
+          "tanque": 17,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Yamaha YZF-R1 (2G)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yamaha-yzf-r3-2019",
+      "datos": {
+        "modelo": "YZF-R3",
+        "tipo": "Sport",
+        "anio": 2019,
+        "km": 50200,
+        "estado": "Usada",
+        "precio": 3400,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": true,
+        "revisadaEnBanco": false,
+        "destacada": true,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Yamaha",
+        "ficha": {
+          "cc": 321,
+          "cilindros": 2,
+          "motor": "Paralelo",
+          "hp": 41,
+          "nm": 30,
+          "peso": 169,
+          "tanque": 14,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Yamaha YZF-R3"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Yamaha YZF-R3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "honda-cbr1000rr-fireblade-2018",
+      "datos": {
+        "modelo": "CBR1000RR Fireblade",
+        "tipo": "Sport",
+        "anio": 2018,
+        "km": 40900,
+        "estado": "Usada",
+        "precio": 8300,
+        "moneda": "USD",
+        "color": "Blanco perla",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": "Visita coordinada con turno previo."
+        },
+        "marcaNombre": "Honda",
+        "ficha": {
+          "cc": 999,
+          "cilindros": 4,
+          "motor": "4 en línea",
+          "hp": 189,
+          "nm": 114,
+          "peso": 196,
+          "tanque": 16,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yamaha-yzf-r6-2018",
+      "datos": {
+        "modelo": "YZF-R6",
+        "tipo": "Sport",
+        "anio": 2018,
+        "km": 40500,
+        "estado": "Usada",
+        "precio": 5600,
+        "moneda": "USD",
+        "color": "Azul racing",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "Yamaha",
+        "ficha": {
+          "cc": 599,
+          "cilindros": 4,
+          "motor": "4 en línea",
+          "hp": 116,
+          "nm": 62,
+          "peso": 190,
+          "tanque": 17,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kawasaki-ninja-zx-10r-2019",
+      "datos": {
+        "modelo": "Ninja ZX-10R",
+        "tipo": "Sport",
+        "anio": 2019,
+        "km": 28100,
+        "estado": "Usada",
+        "precio": 10100,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": true,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Kawasaki",
+        "ficha": {
+          "cc": 998,
+          "cilindros": 4,
+          "motor": "4 en línea",
+          "hp": 200,
+          "nm": 115,
+          "peso": 207,
+          "tanque": 17,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "suzuki-gsx-r1000r-2020",
+      "datos": {
+        "modelo": "GSX-R1000R",
+        "tipo": "Sport",
+        "anio": 2020,
+        "km": 16000,
+        "estado": "Usada",
+        "precio": 11600,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "Suzuki",
+        "ficha": {
+          "cc": 999,
+          "cilindros": 4,
+          "motor": "4 en línea",
+          "hp": 199,
+          "nm": 118,
+          "peso": 203,
+          "tanque": 16,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bmw-s-1000-rr-2024",
+      "datos": {
+        "modelo": "S 1000 RR",
+        "tipo": "Sport",
+        "anio": 2024,
+        "km": 13300,
+        "estado": "Usada",
+        "precio": 16000,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "BMW",
+        "ficha": {
+          "cc": 999,
+          "cilindros": 4,
+          "motor": "4 en línea",
+          "hp": 205,
+          "nm": 113,
+          "peso": 197,
+          "tanque": 16.5,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ducati-panigale-v4-s-2020",
+      "datos": {
+        "modelo": "Panigale V4 S",
+        "tipo": "Sport",
+        "anio": 2020,
+        "km": 31500,
+        "estado": "Usada",
+        "precio": 14200,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": true,
+        "disponibilidad": "Reservada",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Ducati",
+        "ficha": {
+          "cc": 1103,
+          "cilindros": 4,
+          "motor": "V4",
+          "hp": 214,
+          "nm": 124,
+          "peso": 195,
+          "tanque": 16,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ktm-1290-super-duke-r-2023",
+      "datos": {
+        "modelo": "1290 Super Duke R",
+        "tipo": "Naked",
+        "anio": 2023,
+        "km": 10200,
+        "estado": "Usada",
+        "precio": 18400,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": true,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "KTM",
+        "ficha": {
+          "cc": 1301,
+          "cilindros": 2,
+          "motor": "V2",
+          "hp": 177,
+          "nm": 140,
+          "peso": 189,
+          "tanque": 16,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harley-fat-boy-114-2020",
+      "datos": {
+        "modelo": "Fat Boy 114",
+        "tipo": "Custom",
+        "anio": 2020,
+        "km": 20400,
+        "estado": "Usada",
+        "precio": 12200,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": true,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "Harley-Davidson",
+        "ficha": {
+          "cc": 1868,
+          "cilindros": 2,
+          "motor": "V2",
+          "hp": 93,
+          "nm": 155,
+          "peso": 317,
+          "tanque": 18.9,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "benelli-trk-502-2020",
+      "datos": {
+        "modelo": "TRK 502",
+        "tipo": "Adventure",
+        "anio": 2020,
+        "km": 42200,
+        "estado": "Usada",
+        "precio": 5600,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Benelli",
+        "ficha": {
+          "cc": 500,
+          "cilindros": 2,
+          "motor": "Paralelo",
+          "hp": 48,
+          "nm": 46,
+          "peso": 235,
+          "tanque": 20,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aprilia-rsv4-1100-factory-2026",
+      "datos": {
+        "modelo": "RSV4 1100 Factory",
+        "tipo": "Sport",
+        "anio": 2026,
+        "km": 0,
+        "estado": "0 km",
+        "precio": 26000,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Aprilia",
+        "ficha": {
+          "cc": 1099,
+          "cilindros": 4,
+          "motor": "V4",
+          "hp": 217,
+          "nm": 122,
+          "peso": 199,
+          "tanque": 17.9,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "guzzi-v85-tt-2026",
+      "datos": {
+        "modelo": "V85 TT",
+        "tipo": "Adventure",
+        "anio": 2026,
+        "km": 0,
+        "estado": "0 km",
+        "precio": 15400,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Moto Guzzi",
+        "ficha": {
+          "cc": 853,
+          "cilindros": 2,
+          "motor": "V2 transversal",
+          "hp": 79,
+          "nm": 80,
+          "peso": 229,
+          "tanque": 23,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "triumph-street-triple-rs-2019",
+      "datos": {
+        "modelo": "Street Triple RS",
+        "tipo": "Naked",
+        "anio": 2019,
+        "km": 47500,
+        "estado": "Usada",
+        "precio": 7800,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "Triumph",
+        "ficha": {
+          "cc": 765,
+          "cilindros": 3,
+          "motor": "3 en línea",
+          "hp": 121,
+          "nm": 79,
+          "peso": 187,
+          "tanque": 17.4,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "royal-interceptor-650-2019",
+      "datos": {
+        "modelo": "Interceptor 650",
+        "tipo": "Clásica",
+        "anio": 2019,
+        "km": 39300,
+        "estado": "Usada",
+        "precio": 5100,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Royal Enfield",
+        "ficha": {
+          "cc": 648,
+          "cilindros": 2,
+          "motor": "Paralelo",
+          "hp": 47,
+          "nm": 52,
+          "peso": 217,
+          "tanque": 13.7,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bajaj-dominar-400-2021",
+      "datos": {
+        "modelo": "Dominar 400",
+        "tipo": "Touring",
+        "anio": 2021,
+        "km": 19600,
+        "estado": "Usada",
+        "precio": 4700,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Bajaj",
+        "ficha": {
+          "cc": 373,
+          "cilindros": 1,
+          "motor": "Monocilíndrico",
+          "hp": 39,
+          "nm": 35,
+          "peso": 193,
+          "tanque": 13,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zanella-rz-25-2020",
+      "datos": {
+        "modelo": "RZ 25",
+        "tipo": "Naked",
+        "anio": 2020,
+        "km": 24000,
+        "estado": "Usada",
+        "precio": 2400,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Zanella",
+        "ficha": {
+          "cc": 249,
+          "cilindros": 1,
+          "motor": "Monocilíndrico",
+          "hp": 20,
+          "nm": 19,
+          "peso": 145,
+          "tanque": 14,
+          "transmision": "5 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "motomel-skua-250-2025",
+      "datos": {
+        "modelo": "Skua 250",
+        "tipo": "Enduro",
+        "anio": 2025,
+        "km": 3600,
+        "estado": "Usada",
+        "precio": 3600,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "Motomel",
+        "ficha": {
+          "cc": 229,
+          "cilindros": 1,
+          "motor": "Monocilíndrico",
+          "hp": 17,
+          "nm": 17,
+          "peso": 145,
+          "tanque": 12,
+          "transmision": "5 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "corven-txr-250-l-2020",
+      "datos": {
+        "modelo": "TXR 250 L",
+        "tipo": "Enduro",
+        "anio": 2020,
+        "km": 30600,
+        "estado": "Usada",
+        "precio": 2300,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Corven",
+        "ficha": {
+          "cc": 249,
+          "cilindros": 1,
+          "motor": "Monocilíndrico",
+          "hp": 18,
+          "nm": 18,
+          "peso": 140,
+          "tanque": 12,
+          "transmision": "5 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gilera-ac4-250-2018",
+      "datos": {
+        "modelo": "AC4 250",
+        "tipo": "Naked",
+        "anio": 2018,
+        "km": 54600,
+        "estado": "Usada",
+        "precio": 1600,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Gilera",
+        "ficha": {
+          "cc": 249,
+          "cilindros": 1,
+          "motor": "Monocilíndrico",
+          "hp": 18,
+          "nm": 18,
+          "peso": 143,
+          "tanque": 14,
+          "transmision": "5 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "honda-cbr600rr-2013",
+      "datos": {
+        "modelo": "CBR600RR",
+        "tipo": "Sport",
+        "anio": 2013,
+        "km": 58600,
+        "estado": "Usada",
+        "precio": 5200,
+        "moneda": "USD",
+        "color": "Azul",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Honda",
+        "ficha": {
+          "cc": 599,
+          "cilindros": 4,
+          "motor": "4 en línea",
+          "hp": 118,
+          "nm": 66,
+          "peso": 186,
+          "tanque": 18,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yamaha-mt-09-2021",
+      "datos": {
+        "modelo": "MT-09",
+        "tipo": "Naked",
+        "anio": 2021,
+        "km": 36600,
+        "estado": "Usada",
+        "precio": 9900,
+        "moneda": "USD",
+        "color": "Blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Reservada",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Yamaha",
+        "ficha": {
+          "cc": 890,
+          "cilindros": 3,
+          "motor": "3 en línea",
+          "hp": 117,
+          "nm": 93,
+          "peso": 189,
+          "tanque": 14,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kawasaki-ninja-650-2026",
+      "datos": {
+        "modelo": "Ninja 650",
+        "tipo": "Sport",
+        "anio": 2026,
+        "km": 0,
+        "estado": "0 km",
+        "precio": 11400,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "Kawasaki",
+        "ficha": {
+          "cc": 649,
+          "cilindros": 2,
+          "motor": "Paralelo",
+          "hp": 67,
+          "nm": 64,
+          "peso": 193,
+          "tanque": 15,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "suzuki-hayabusa-2024",
+      "datos": {
+        "modelo": "Hayabusa",
+        "tipo": "Sport",
+        "anio": 2024,
+        "km": 11100,
+        "estado": "Usada",
+        "precio": 19900,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Suzuki",
+        "ficha": {
+          "cc": 1340,
+          "cilindros": 4,
+          "motor": "4 en línea",
+          "hp": 187,
+          "nm": 150,
+          "peso": 264,
+          "tanque": 20,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bmw-r-1250-gs-2023",
+      "datos": {
+        "modelo": "R 1250 GS",
+        "tipo": "Adventure",
+        "anio": 2023,
+        "km": 20000,
+        "estado": "Usada",
+        "precio": 16600,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": true,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "BMW",
+        "ficha": {
+          "cc": 1254,
+          "cilindros": 2,
+          "motor": "Bóxer",
+          "hp": 134,
+          "nm": 143,
+          "peso": 249,
+          "tanque": 20,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ducati-streetfighter-v4-2025",
+      "datos": {
+        "modelo": "Streetfighter V4",
+        "tipo": "Naked",
+        "anio": 2025,
+        "km": 4600,
+        "estado": "Usada",
+        "precio": 22100,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Ducati",
+        "ficha": {
+          "cc": 1103,
+          "cilindros": 4,
+          "motor": "V4",
+          "hp": 205,
+          "nm": 123,
+          "peso": 201,
+          "tanque": 16,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ktm-1290-super-adventure-s-2021",
+      "datos": {
+        "modelo": "1290 Super Adventure S",
+        "tipo": "Adventure",
+        "anio": 2021,
+        "km": 12000,
+        "estado": "Usada",
+        "precio": 15300,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "KTM",
+        "ficha": {
+          "cc": 1301,
+          "cilindros": 2,
+          "motor": "V2",
+          "hp": 158,
+          "nm": 138,
+          "peso": 220,
+          "tanque": 23,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harley-street-glide-special-2022",
+      "datos": {
+        "modelo": "Street Glide Special",
+        "tipo": "Touring",
+        "anio": 2022,
+        "km": 11600,
+        "estado": "Usada",
+        "precio": 14800,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Harley-Davidson",
+        "ficha": {
+          "cc": 1868,
+          "cilindros": 2,
+          "motor": "V2",
+          "hp": 93,
+          "nm": 163,
+          "peso": 375,
+          "tanque": 22.7,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "benelli-leoncino-500-2019",
+      "datos": {
+        "modelo": "Leoncino 500",
+        "tipo": "Naked",
+        "anio": 2019,
+        "km": 28500,
+        "estado": "Usada",
+        "precio": 5400,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Benelli",
+        "ficha": {
+          "cc": 500,
+          "cilindros": 2,
+          "motor": "Paralelo",
+          "hp": 48,
+          "nm": 46,
+          "peso": 207,
+          "tanque": 13.5,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aprilia-tuono-v4-1100-2016",
+      "datos": {
+        "modelo": "Tuono V4 1100",
+        "tipo": "Naked",
+        "anio": 2016,
+        "km": 68700,
+        "estado": "Usada",
+        "precio": 9500,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Vendida",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Aprilia",
+        "ficha": {
+          "cc": 1077,
+          "cilindros": 4,
+          "motor": "V4",
+          "hp": 175,
+          "nm": 121,
+          "peso": 209,
+          "tanque": 18.5,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "guzzi-v7-stone-2026",
+      "datos": {
+        "modelo": "V7 Stone",
+        "tipo": "Clásica",
+        "anio": 2026,
+        "km": 0,
+        "estado": "0 km",
+        "precio": 14900,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "Moto Guzzi",
+        "ficha": {
+          "cc": 853,
+          "cilindros": 2,
+          "motor": "V2 transversal",
+          "hp": 65,
+          "nm": 73,
+          "peso": 218,
+          "tanque": 21,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "triumph-speed-triple-1200-rs-2022",
+      "datos": {
+        "modelo": "Speed Triple 1200 RS",
+        "tipo": "Naked",
+        "anio": 2022,
+        "km": 18500,
+        "estado": "Usada",
+        "precio": 16700,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Triumph",
+        "ficha": {
+          "cc": 1160,
+          "cilindros": 3,
+          "motor": "3 en línea",
+          "hp": 177,
+          "nm": 125,
+          "peso": 198,
+          "tanque": 15.5,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "royal-continental-gt-650-2020",
+      "datos": {
+        "modelo": "Continental GT 650",
+        "tipo": "Clásica",
+        "anio": 2020,
+        "km": 41500,
+        "estado": "Usada",
+        "precio": 5600,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Royal Enfield",
+        "ficha": {
+          "cc": 648,
+          "cilindros": 2,
+          "motor": "Paralelo",
+          "hp": 47,
+          "nm": 52,
+          "peso": 212,
+          "tanque": 12.5,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bajaj-dominar-250-2024",
+      "datos": {
+        "modelo": "Dominar 250",
+        "tipo": "Touring",
+        "anio": 2024,
+        "km": 9100,
+        "estado": "Usada",
+        "precio": 3600,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Efectivo",
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "No disponible"
+          ],
+          "permuta": "No acepta",
+          "notas": ""
+        },
+        "marcaNombre": "Bajaj",
+        "ficha": {
+          "cc": 249,
+          "cilindros": 1,
+          "motor": "Monocilíndrico",
+          "hp": 27,
+          "nm": 24,
+          "peso": 180,
+          "tanque": 13,
+          "transmision": "6 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zanella-zr-150-ohc-2021",
+      "datos": {
+        "modelo": "ZR 150 OHC",
+        "tipo": "Naked",
+        "anio": 2021,
+        "km": 17000,
+        "estado": "Usada",
+        "precio": 1600,
+        "moneda": "USD",
+        "color": "Rojo / blanco",
+        "fotosCoinciden": false,
+        "revisadaEnBanco": false,
+        "destacada": false,
+        "disponibilidad": "Disponible",
+        "condiciones": {
+          "pagos": [
+            "Transferencia bancaria"
+          ],
+          "financiacion": [
+            "A convenir"
+          ],
+          "permuta": "Sujeta a evaluación",
+          "notas": ""
+        },
+        "marcaNombre": "Zanella",
+        "ficha": {
+          "cc": 149,
+          "cilindros": 1,
+          "motor": "Monocilíndrico",
+          "hp": 13,
+          "nm": 12,
+          "peso": 125,
+          "tanque": 15,
+          "transmision": "5 vel."
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          },
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Foto ilustrativa del catálogo"
+          }
+        ]
+      }
+    }
+  ],
+  "repuestos": [
+    {
+      "id": "escape-r1",
+      "datos": {
+        "codigo": "ESC-R1",
+        "nombre": "Silenciador de escape",
+        "marca": "Yamaha",
+        "compatibilidad": "YZF-R1",
+        "categoria": "Escape",
+        "tipo": "Repuesto",
+        "descripcion": "Consultá compatibilidad con el año y la configuración de tu moto.",
+        "disponibilidad": "encargo",
+        "precio": null,
+        "imagenes": [
+          {
+            "archivo": "r1-blanca-escape.webp",
+            "alt": "Silenciador de escape instalado en una moto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "freno-r1",
+      "datos": {
+        "codigo": "FRE-R1",
+        "nombre": "Disco de freno delantero",
+        "marca": "Yamaha",
+        "compatibilidad": "YZF-R1",
+        "categoria": "Frenos",
+        "tipo": "Repuesto",
+        "descripcion": "Disco delantero. Confirmá versión y medidas antes de pedir.",
+        "disponibilidad": "stock",
+        "precio": {
+          "valor": 165000,
+          "moneda": "ARS"
+        },
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Disco delantero en la rueda de una Yamaha"
+          }
+        ]
+      }
+    },
+    {
+      "id": "parabrisas-r3",
+      "datos": {
+        "codigo": "PAR-R3",
+        "nombre": "Parabrisas deportivo",
+        "marca": "Yamaha",
+        "compatibilidad": "YZF-R3",
+        "categoria": "Carenado",
+        "tipo": "Accesorio",
+        "descripcion": "Pantalla frontal. Consultá el calce para el año de tu moto.",
+        "disponibilidad": "stock",
+        "precio": {
+          "valor": 78000,
+          "moneda": "ARS"
+        },
+        "imagenes": [
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Parabrisas montado sobre el carenado de una Yamaha"
+          }
+        ]
+      }
+    }
+  ],
+  "trabajos": [
+    {
+      "id": "control-en-banco",
+      "datos": {
+        "categoria": "Mecánica",
+        "tipo": "Banco de pruebas",
+        "marca": "Yamaha",
+        "fecha": "2026-11-12",
+        "titulo": "Control de funcionamiento en banco",
+        "resumen": "Una revisión de la respuesta del motor bajo carga.",
+        "detalle": "En una revisión de este tipo, se hace un control inicial de la moto, se comprueba su funcionamiento en banco y se comparan las observaciones con los síntomas que describe el cliente.",
+        "instagramUrl": "",
+        "imagenes": [
+          {
+            "archivo": "r1-roja-banco.webp",
+            "alt": "Yamaha sobre la plataforma del taller"
+          }
+        ]
+      }
+    },
+    {
+      "id": "diagnostico-en-taller",
+      "datos": {
+        "categoria": "Electrónica",
+        "tipo": "Diagnóstico computarizado",
+        "marca": "Yamaha",
+        "fecha": "2026-11-06",
+        "titulo": "Diagnóstico del sistema electrónico",
+        "resumen": "Lectura de fallas y comprobación de parámetros.",
+        "detalle": "El trabajo comienza con la lectura de averías y la revisión de las señales de los sensores. En función de esos resultados se comprueban las conexiones y se define el siguiente paso.",
+        "instagramUrl": "",
+        "imagenes": [
+          {
+            "archivo": "r1-blanca-frente.webp",
+            "alt": "Moto blanca en el taller Avianto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gestion-del-motor",
+      "datos": {
+        "categoria": "Reprogramaciones",
+        "tipo": "Gestión de ECU",
+        "marca": "Yamaha",
+        "fecha": "2026-10-29",
+        "titulo": "Evaluación de la gestión del motor",
+        "resumen": "Revisión de la configuración y de la respuesta de la moto.",
+        "detalle": "Antes de proponer ajustes, se releva la configuración de la unidad y se verifica su estado. El presupuesto indica qué parámetros se pueden ajustar y cómo se va a comprobar el resultado.",
+        "instagramUrl": "",
+        "imagenes": [
+          {
+            "archivo": "r3-azul-34.webp",
+            "alt": "Vista frontal de una Yamaha azul"
+          },
+          {
+            "archivo": "r3-azul-lateral.webp",
+            "alt": "Vista lateral de la Yamaha azul"
+          }
+        ]
+      }
+    }
+  ]
+}

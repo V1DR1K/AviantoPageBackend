@@ -1,0 +1,69 @@
+services:
+  api:
+    image: ${AVIANTO_API_IMAGE:?Falta la imagen de esta versión}
+    container_name: avianto-landing-api
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp:rw,nosuid,nodev,size=112m,mode=1777
+    environment:
+      AVIANTO_DB_URL: jdbc:postgresql://db:5432/avianto_landing
+      AVIANTO_DB_USER: avianto_landing
+      AVIANTO_DB_PASSWORD: ${AVIANTO_DB_PASSWORD:?Falta la clave de la base}
+      AVIANTO_COOKIE_SECURE: "true"
+      AVIANTO_ADMIN_USER: avril
+      AVIANTO_ADMIN_INITIAL_PASSWORD: ${AVIANTO_ADMIN_INITIAL_PASSWORD:-avril}
+      AVIANTO_ACTIVATION_CODE: ${AVIANTO_ACTIVATION_CODE:?Falta el código de activación}
+      AVIANTO_SEED: "true"
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.8-flash}
+      AVIANTO_CWEBP: /usr/bin/cwebp
+    mem_limit: 768m
+    cpus: 2
+    pids_limit: 180
+    stop_grace_period: 22s
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      edge:
+        aliases: [avianto-landing-api]
+      catalogo:
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8084/actuator/health/readiness"]
+      interval: 15s
+      timeout: 4s
+      retries: 4
+      start_period: 25s
+
+  db:
+    image: postgres:17-alpine
+    container_name: avianto-landing-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: avianto_landing
+      POSTGRES_USER: avianto_landing
+      POSTGRES_PASSWORD: ${AVIANTO_DB_PASSWORD:?Falta la clave de la base}
+    command: ["postgres", "-c", "max_connections=30", "-c", "shared_buffers=64MB"]
+    mem_limit: 384m
+    cpus: 1
+    pids_limit: 100
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "avianto_landing", "-d", "avianto_landing"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+    networks: [catalogo]
+    volumes:
+      - datos:/var/lib/postgresql/data
+
+networks:
+  edge:
+    external: true
+  catalogo:
+    internal: true
+
+volumes:
+  datos:
+    name: avianto-landing-postgres-data
