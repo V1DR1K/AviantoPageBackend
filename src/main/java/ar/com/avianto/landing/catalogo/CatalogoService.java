@@ -97,6 +97,16 @@ class CatalogoService {
         repositorio.incrementarRevision(tipo);
     }
 
+    @Transactional
+    long registrarVistaMoto(String id) {
+        if (!repositorio.incrementarVistasMoto(id)) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "La publicación ya no está disponible.");
+        }
+        repositorio.incrementarRevision(TipoCatalogo.MOTOS);
+        snapshots.remove(TipoCatalogo.MOTOS);
+        return repositorio.vistasMoto(id);
+    }
+
     void insertar(TipoCatalogo tipo, String id, JsonNode datos, boolean visible) {
         var inicial = (ObjectNode) datos.deepCopy();
         gestion.incorporarInicial(tipo, inicial);
@@ -146,6 +156,7 @@ class CatalogoService {
         var datos = entrada.datos().deepCopy();
         datos.put("id", entrada.id());
         datos.put("publicada", entrada.creada().toInstant().toString());
+        if (tipo == TipoCatalogo.MOTOS) datos.put("vistas", entrada.vistas());
         var refs = datos.remove("imagenes");
         var fotos = datos.putArray("imagenes");
         for (JsonNode ref : refs) {

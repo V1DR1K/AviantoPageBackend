@@ -1,4 +1,8 @@
 **
 !Dockerfile
+!Dockerfile.local
+!pom.xml
+!src/
+!src/**
 !target/
 !target/avianto-landing-1.0.0.jar

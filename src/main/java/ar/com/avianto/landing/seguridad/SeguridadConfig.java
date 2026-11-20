@@ -40,7 +40,8 @@ class SeguridadConfig {
                         .requestMatchers("/api/**", "/actuator/**").denyAll()
                         .anyRequest().permitAll())
                 .securityContext(contexto -> contexto.securityContextRepository(new HttpSessionSecurityContextRepository()))
-                .csrf(csrf -> csrf.csrfTokenRepository(new HttpSessionCsrfTokenRepository()))
+                .csrf(csrf -> csrf.csrfTokenRepository(new HttpSessionCsrfTokenRepository())
+                        .ignoringRequestMatchers("/api/catalogo/motos/*/vistas"))
                 .requestCache(cache -> cache.disable())
                 .exceptionHandling(errores -> errores
                         .authenticationEntryPoint((req, resp, ex) -> resp.setStatus(HttpServletResponse.SC_UNAUTHORIZED))

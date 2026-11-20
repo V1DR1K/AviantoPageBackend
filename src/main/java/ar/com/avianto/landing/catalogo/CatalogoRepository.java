@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @Repository
 class CatalogoRepository {
-    record Entrada(String id, ObjectNode datos, boolean visible, int version, OffsetDateTime creada,
+    record Entrada(String id, ObjectNode datos, boolean visible, int version, long vistas, OffsetDateTime creada,
                    OffsetDateTime actualizada) {}
 
     private final JdbcTemplate jdbc;
@@ -24,7 +24,7 @@ class CatalogoRepository {
         this.mapper = (rs, row) -> {
             try {
                 return new Entrada(rs.getString("id"), (ObjectNode) json.readTree(rs.getString("datos")),
-                        rs.getBoolean("visible"), rs.getInt("version"),
+                        rs.getBoolean("visible"), rs.getInt("version"), rs.getLong("vistas"),
                         rs.getObject("creada", OffsetDateTime.class), rs.getObject("actualizada", OffsetDateTime.class));
             } catch (JsonProcessingException ex) {
                 throw new IllegalStateException("Publicación persistida inválida", ex);
@@ -41,6 +41,14 @@ class CatalogoRepository {
     Optional<Entrada> buscar(TipoCatalogo tipo, String id) {
         return jdbc.query("SELECT * FROM entrada_catalogo WHERE tipo = ? AND id = ? AND archivada IS NULL",
                 mapper, tipo.ruta(), id).stream().findFirst();
+    }
+
+    boolean incrementarVistasMoto(String id) {
+        return jdbc.update("UPDATE entrada_catalogo SET vistas = vistas + 1 WHERE tipo = 'motos' AND id = ? AND visible AND archivada IS NULL", id) == 1;
+    }
+
+    long vistasMoto(String id) {
+        return jdbc.queryForObject("SELECT vistas FROM entrada_catalogo WHERE tipo = 'motos' AND id = ? AND archivada IS NULL", Long.class, id);
     }
 
     void insertar(TipoCatalogo tipo, String id, ObjectNode datos, boolean visible) {

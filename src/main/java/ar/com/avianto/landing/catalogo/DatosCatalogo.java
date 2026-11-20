@@ -52,7 +52,6 @@ sealed interface DatosCatalogo permits DatosCatalogo.Moto, DatosCatalogo.Repuest
             @NotNull @Pattern(regexp = "ARS|USD") String moneda,
             boolean destacada,
             boolean revisadaEnBanco,
-            boolean fotosCoinciden,
             @NotNull @Valid Ficha ficha,
             @Valid Condiciones condiciones,
             @NotNull @Size(max = 5) List<@NotNull @Valid Foto> imagenes) implements DatosCatalogo {}

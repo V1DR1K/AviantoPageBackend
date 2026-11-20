@@ -18,7 +18,6 @@
         "precio": 7500,
         "moneda": "USD",
         "color": "Blanco perla",
-        "fotosCoinciden": true,
         "revisadaEnBanco": false,
         "destacada": true,
         "disponibilidad": "Disponible",
@@ -67,7 +66,6 @@
         "precio": 7700,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": true,
         "revisadaEnBanco": false,
         "destacada": true,
         "disponibilidad": "Disponible",
@@ -111,7 +109,6 @@
         "precio": 3400,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": true,
         "revisadaEnBanco": false,
         "destacada": true,
         "disponibilidad": "Disponible",
@@ -160,7 +157,6 @@
         "precio": 8300,
         "moneda": "USD",
         "color": "Blanco perla",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -188,23 +184,23 @@
         "imagenes": [
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -220,7 +216,6 @@
         "precio": 5600,
         "moneda": "USD",
         "color": "Azul racing",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -248,23 +243,23 @@
         "imagenes": [
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -280,7 +275,6 @@
         "precio": 10100,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": true,
         "disponibilidad": "Disponible",
@@ -309,19 +303,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -337,7 +331,6 @@
         "precio": 11600,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -365,19 +358,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -393,7 +386,6 @@
         "precio": 16000,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -422,19 +414,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -450,7 +442,6 @@
         "precio": 14200,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": true,
         "disponibilidad": "Reservada",
@@ -478,19 +469,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -506,7 +497,6 @@
         "precio": 18400,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": true,
         "disponibilidad": "Disponible",
@@ -535,19 +525,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -563,7 +553,6 @@
         "precio": 12200,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": true,
         "disponibilidad": "Disponible",
@@ -591,19 +580,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -619,7 +608,6 @@
         "precio": 5600,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -648,19 +636,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -676,7 +664,6 @@
         "precio": 26000,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -704,19 +691,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -732,7 +719,6 @@
         "precio": 15400,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -761,19 +747,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -789,7 +775,6 @@
         "precio": 7800,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -817,19 +802,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -845,7 +830,6 @@
         "precio": 5100,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -874,19 +858,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -902,7 +886,6 @@
         "precio": 4700,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -930,19 +913,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -958,7 +941,6 @@
         "precio": 2400,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -987,19 +969,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1015,7 +997,6 @@
         "precio": 3600,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1043,19 +1024,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1071,7 +1052,6 @@
         "precio": 2300,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1100,19 +1080,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1128,7 +1108,6 @@
         "precio": 1600,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1156,19 +1135,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1184,7 +1163,6 @@
         "precio": 5200,
         "moneda": "USD",
         "color": "Azul",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1213,19 +1191,19 @@
         "imagenes": [
           {
             "archivo": "r3-azul-lateral.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r3-azul-34.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1241,7 +1219,6 @@
         "precio": 9900,
         "moneda": "USD",
         "color": "Blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Reservada",
@@ -1270,11 +1247,11 @@
         "imagenes": [
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1290,7 +1267,6 @@
         "precio": 11400,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1318,15 +1294,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1342,7 +1318,6 @@
         "precio": 19900,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1371,15 +1346,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1395,7 +1370,6 @@
         "precio": 16600,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": true,
         "disponibilidad": "Disponible",
@@ -1423,15 +1397,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1447,7 +1421,6 @@
         "precio": 22100,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1476,15 +1449,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1500,7 +1473,6 @@
         "precio": 15300,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1528,15 +1500,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1552,7 +1524,6 @@
         "precio": 14800,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1581,15 +1552,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1605,7 +1576,6 @@
         "precio": 5400,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1633,15 +1603,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1657,7 +1627,6 @@
         "precio": 9500,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Vendida",
@@ -1686,15 +1655,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1710,7 +1679,6 @@
         "precio": 14900,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1738,15 +1706,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1762,7 +1730,6 @@
         "precio": 16700,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1791,15 +1758,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1815,7 +1782,6 @@
         "precio": 5600,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1843,15 +1809,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1867,7 +1833,6 @@
         "precio": 3600,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1896,15 +1861,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }
@@ -1920,7 +1885,6 @@
         "precio": 1600,
         "moneda": "USD",
         "color": "Rojo / blanco",
-        "fotosCoinciden": false,
         "revisadaEnBanco": false,
         "destacada": false,
         "disponibilidad": "Disponible",
@@ -1948,15 +1912,15 @@
         "imagenes": [
           {
             "archivo": "r1-roja-banco.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-frente.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           },
           {
             "archivo": "r1-blanca-escape.webp",
-            "alt": "Foto ilustrativa del catálogo"
+            "alt": ""
           }
         ]
       }

@@ -5,6 +5,7 @@ import org.springframework.http.CacheControl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
@@ -36,6 +37,12 @@ class CatalogoPublicoController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "La publicación ya no está disponible.");
         }
         return cacheable("motos", snapshot.revision(), id, moto);
+    }
+
+    @PostMapping("/api/catalogo/motos/{id:[0-9a-z-]{1,100}}/vistas")
+    ResponseEntity<Long> registrarVista(@PathVariable String id) {
+        long vistas = catalogo.registrarVistaMoto(id);
+        return ResponseEntity.ok().cacheControl(CacheControl.noStore()).body(vistas);
     }
 
     private <T> ResponseEntity<T> cacheable(String tipo, long revision, String recurso, T body) {

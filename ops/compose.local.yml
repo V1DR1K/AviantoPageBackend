@@ -1,0 +1,100 @@
+name: avianto-page-local
+
+services:
+  web:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8091:80"
+    volumes:
+      - type: bind
+        source: ../../AviantoPageFrontend
+        target: /usr/share/nginx/html
+        read_only: true
+      - type: bind
+        source: ../../AviantoPageFrontend/ops/nginx.conf
+        target: /etc/nginx/conf.d/default.conf
+        read_only: true
+    depends_on:
+      api:
+        condition: service_healthy
+    networks:
+      - web
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+  api:
+    build:
+      context: ..
+      dockerfile: Dockerfile.local
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp:rw,nosuid,nodev,size=112m,mode=1777
+    environment:
+      AVIANTO_DB_URL: jdbc:postgresql://db:5432/avianto_landing
+      AVIANTO_DB_USER: avianto_landing
+      AVIANTO_DB_PASSWORD: ${AVIANTO_LOCAL_DB_PASSWORD:-avianto_local}
+      AVIANTO_COOKIE_SECURE: "false"
+      AVIANTO_ADMIN_USER: avril
+      AVIANTO_ADMIN_INITIAL_PASSWORD: ${AVIANTO_LOCAL_ADMIN_INITIAL_PASSWORD:-avril}
+      AVIANTO_ACTIVATION_CODE: ${AVIANTO_LOCAL_ACTIVATION_CODE:-avianto-local-activation-code}
+      AVIANTO_SEED: "true"
+      AVIANTO_CWEBP: /usr/bin/cwebp
+    ports:
+      - "127.0.0.1:8084:8084"
+    mem_limit: 768m
+    cpus: 2
+    pids_limit: 180
+    stop_grace_period: 22s
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      web:
+        aliases:
+          - avianto-landing-api
+      data:
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8084/actuator/health/readiness"]
+      interval: 15s
+      timeout: 4s
+      retries: 4
+      start_period: 25s
+
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:15438:5432"
+    environment:
+      POSTGRES_DB: avianto_landing
+      POSTGRES_USER: avianto_landing
+      POSTGRES_PASSWORD: ${AVIANTO_LOCAL_DB_PASSWORD:-avianto_local}
+    command: ["postgres", "-c", "max_connections=30", "-c", "shared_buffers=64MB"]
+    mem_limit: 384m
+    cpus: 1
+    pids_limit: 100
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "avianto_landing", "-d", "avianto_landing"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+    networks:
+      - data
+    volumes:
+      - datos:/var/lib/postgresql/data
+
+networks:
+  web:
+  data:
+    internal: true
+
+volumes:
+  datos:
+    name: avianto-page-local-postgres-data

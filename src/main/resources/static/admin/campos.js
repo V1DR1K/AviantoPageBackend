@@ -14,7 +14,7 @@
       nombre: (moto) => `${moto.marcaNombre} ${moto.modelo}`,
       detalle: (moto) => `${moto.anio} · ${moto.tipo} · ${moto.ficha.cc} cc`,
       estado: (moto) => moto.disponibilidad,
-      base: { disponibilidad: "Disponible", estado: "Usada", moneda: "USD", fotosCoinciden: true, anio: new Date().getFullYear(), km: 0 },
+      base: { disponibilidad: "Disponible", estado: "Usada", moneda: "USD", anio: new Date().getFullYear(), km: 0 },
       secciones: [
         ["Identificación", [
           gestion("marcaNombre", "Marca", "marcas", true), texto("modelo", "Modelo", 90, true),
@@ -38,7 +38,6 @@
         ["Presentación", [
           check("destacada", "Mostrar entre las destacadas"),
           check("revisadaEnBanco", "Verificada en banco de pruebas"),
-          check("fotosCoinciden", "Las fotos corresponden a esta moto"),
         ]],
       ],
     },
